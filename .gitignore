@@ -1,0 +1,60 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+logs
+*.log
+
+# system
+.DS_Store
+Thumbs.db
+
+# build
+dist/
+coverage/
+.next/
+start-*.log
+server-*.pid
+export-*.xlsx
+latest-export*.xlsx
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# === 项目运行数据（必须忽略）===
+data/uploads/*
+!data/uploads/.gitkeep
+data/cache/*
+!data/cache/.gitkeep
+data/parsed/*
+!data/parsed/.gitkeep
+data/config/*
+!data/config/.gitkeep
+
+# Excel数据
+*.xlsx
+
+# AI中间文件
+review-*.txt
+review-*.json
+
+# 临时调试文件
+*.tmp
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+
+# Claude local settings
+.claude/settings.local.json
