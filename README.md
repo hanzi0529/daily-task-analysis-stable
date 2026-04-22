@@ -8,7 +8,7 @@
 - 标准化 JSON 输出
 - 规则分析与 Dashboard 聚合
 - Dashboard / 上传页 / 日报明细页 / 人员分析页全部接入真实 API
-- 导出最新核查结果 Excel（3 个 sheet）
+- 导出最新核查结果 Excel
 - AI 抽样复核已接入，作为可选增强，不参与主判断
 - AI 整体报告已接入，作为批次级管理总结层，不参与主判断
 - 当前版本默认使用 DeepSeek API 进行 AI 复核（API Key 需在代码中配置）
